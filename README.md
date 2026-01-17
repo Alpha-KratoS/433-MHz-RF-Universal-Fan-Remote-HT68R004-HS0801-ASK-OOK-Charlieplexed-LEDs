@@ -30,7 +30,8 @@ It supports **14 functional buttons**, **15 indicator LEDs (Charlieplexed)**, an
 
 ## 🧠 System Architecture
 
-![Block Diagram](images/block_diagram.png)
+![System Architecture](images/system_architecture.png)
+
 
 **Transmitter**
 - HT68R004 MCU
@@ -70,7 +71,9 @@ It supports **14 functional buttons**, **15 indicator LEDs (Charlieplexed)**, an
 - No external LED drivers required
 
 📷 *Charlieplex wiring diagram:*  
-![Charlieplex](images/charlieplex_leds.png)
+## 💡 LED Implementation (Charlieplexing)
+![Charlieplex LEDs](images/charlieplexing_diagram.png)
+
 
 ---
 
