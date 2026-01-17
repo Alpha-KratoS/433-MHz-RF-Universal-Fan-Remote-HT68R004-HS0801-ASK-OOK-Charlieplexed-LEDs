@@ -30,7 +30,7 @@ It supports **14 functional buttons**, **15 indicator LEDs (Charlieplexed)**, an
 
 ## 🧠 System Architecture
 
-![System Architecture](images/system_architecture.png)
+![System Architecture](system_architecture.png)
 
 
 **Transmitter**
@@ -72,7 +72,7 @@ It supports **14 functional buttons**, **15 indicator LEDs (Charlieplexed)**, an
 
 📷 *Charlieplex wiring diagram:*  
 ## 💡 LED Implementation (Charlieplexing)
-![Charlieplex LEDs](images/charlieplexing_diagram.png)
+![Charlieplex LEDs](charlieplexing_diagram.png)
 
 
 ---
