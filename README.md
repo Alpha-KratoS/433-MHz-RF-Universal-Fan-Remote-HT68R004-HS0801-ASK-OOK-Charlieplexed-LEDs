@@ -97,7 +97,7 @@ Frames repeat while button is held
 
 
 📄 Full protocol details:  
-➡ [`docs/RF_Receiver_Implementation_Guide.pdf`](docs/RF_Receiver_Implementation_Guide.pdf)
+➡ [`docs/RF_Receiver_Implementation_Guide.pdf`](RF_Receiver_Full_Technical_Specification_With_Button_Coding.pdf)
 
 ---
 
