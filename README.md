@@ -78,19 +78,23 @@ It supports **14 functional buttons**, **15 indicator LEDs (Charlieplexed)**, an
 ---
 
 ## 📡 RF Protocol Summary
+- **Frequency: 433.92 MHz
+- **Modulation: ASK / OOK
+- **Bit Order: MSB first
 
-- **Frequency:** 433.92 MHz  
-- **Modulation:** ASK / OOK  
-- **Frame Length:** 32 bits  
-- **Structure:**
+- **Frame: **
+[ SYNC ][ CMD (4 bits) ]
 
-[ 0xAA ][ 0x0E ][ REMOTE_ID ][ CMD ]
+- **SYNC: **
+HIGH 40 ticks → LOW 10 ticks
 
-yaml
-Copy code
+- **CMD: **
+4-bit button number (1–14)
 
-- MSB first
-- Frames repeated while button is held
+- **Repeat: **
+Each frame sent 2 times
+Frames repeat while button is held
+
 
 📄 Full protocol details:  
 ➡ [`docs/RF_Receiver_Implementation_Guide.pdf`](docs/RF_Receiver_Implementation_Guide.pdf)
